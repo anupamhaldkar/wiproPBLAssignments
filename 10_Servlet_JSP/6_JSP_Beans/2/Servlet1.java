@@ -34,7 +34,7 @@ public class Servlet1 extends HttpServlet {
         }
         else
         {
-            RequestDispatcher rd = request.getRequestDispatcher("errorpage.jsp");
+            RequestDispatcher rd = request.getRequestDispatcher("error_page.jsp");
             rd.forward(request, response);
         }
     }
